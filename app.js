@@ -1,6 +1,3 @@
-// First way of accesing an element
-console.log(document)
-
-
-
-// Second way of accesing an element
+function toggleDarkMode() {
+   document.querySelector('body').classList.toggle("dark-theme")
+}
